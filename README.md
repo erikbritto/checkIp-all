@@ -2,6 +2,7 @@
 
 
 chekIp-all.sh - To test all possible tcp connections from a source IP to a target port on destination IP.
+
 	Usage: sudo checkIP-all.sh sourceIP destinationIp targetPort
 
 
