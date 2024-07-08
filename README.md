@@ -3,8 +3,8 @@
 
 chekIp-all.sh - To test all possible tcp connections from a source IP to a target port on a destination IP.
 
-	Usage: 
-              sudo checkIP-all.sh sourceIP destinationIp targetPort
+##
+		sudo checkIP-all.sh sourceIP destinationIp targetPort
 
 
 First Install nmap:
@@ -23,13 +23,10 @@ Example 2: $ checkIp-all.sh 10.10.10.10 127.0.0.1 5001 > collected.txt
 More
 
 tcp-open-ports.sh - To show open tcp ports on a destination IP
-
-	Usage: 
  ##
 		sudo tcp-open-ports.sh 127.0.0.1
 
 udp-open-ports.sh - To show open udp ports on a destination IP
-
-	Usage:
+##
               sudo udp-open-ports.sh 127.0.0.1
 
