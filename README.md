@@ -24,7 +24,8 @@ More
 
 tcp-open-ports.sh - To show open tcp ports on a destination IP
 
-	Usage: ##
+	Usage: 
+ ##
 		sudo tcp-open-ports.sh 127.0.0.1
 
 udp-open-ports.sh - To show open udp ports on a destination IP
