@@ -1,12 +1,16 @@
-#checkIp-all.sh
+# checkIp-all.sh
 
 
-chekIp-all.sh - To test tcp connections on a destination IP 
-	Usage: sudo checkIP-all.sh SourceIP DestinationIp SourcePort
+chekIp-all.sh - To test all possible tcp connections from a source IP to a target port on destination IP.
+	Usage: sudo checkIP-all.sh sourceIP destinationIp targetPort
 
 
 First Install nmap:
 # sudo apt-get install nmap
+
+Then
+$ git clone git@github.com:erikbritto/checkIp-all.git
+
 
 Example 1: $ checkIp-all.sh 10.10.10.10 127.0.0.1 5001
 
