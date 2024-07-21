@@ -1,5 +1,4 @@
 #!/usr/bin/bash
-clear
 if [ "$#" != "3" ] || [ "$UID" != "0" ]
    then 
      echo "
